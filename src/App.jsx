@@ -11,6 +11,7 @@ import Quiz from "./Components/Quiz";
 import OwnTodo from "./Components/OwnTodo";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import ProfileList from "./Components/ProfileList";
 
 const queryClient = new QueryClient();
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <Router>
           <Routes>
-            <Route path="/" element={<Datafetching />}></Route>
+            <Route path="/" element={<ProfileList />}></Route>
           </Routes>
         </Router>
       </QueryClientProvider>
