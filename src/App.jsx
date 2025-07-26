@@ -12,6 +12,7 @@ import OwnTodo from "./Components/OwnTodo";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import ProfileList from "./Components/ProfileList";
+import Question1 from "./Components/Question1"
 
 const queryClient = new QueryClient();
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<ProfileList />}></Route>
+            <Route path = "/state" element = {<Question1 />}></Route>
           </Routes>
         </Router>
       </QueryClientProvider>
