@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import arpita from "../assets/arpita.png";
+import apekshya from "../assets/apekshya.jpg"
 
 function Statecolor() {
   const [color, setColor] = useState(null);
 
   const handleChange = (e) => {
     const inputValue = e.target.value.toLowerCase(); // Convert input to lowercase for case-insensitive comparison
-    if (inputValue === "arpita") {
+    if (inputValue === "apekshya" || "apekshyaa" || "Apekshya") {
       setColor("white");
     } else {
       setColor(null);
@@ -21,7 +21,7 @@ function Statecolor() {
         style={{ backgroundColor: color }}
       >
         {color === "white" && (
-          <img src={arpita} alt="Roshni" className="w-full h-full object-cover" />
+          <img src={apekshya} alt="Roshni" className="w-full h-full object-cover" />
         )}
       </div>
       <div className="field flex absolute top-[550px]">

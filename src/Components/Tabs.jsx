@@ -19,7 +19,7 @@ const Tabs = () => {
         <button className='px-2 bg-green-200 rounded-xl'onClick={ () => setSelectedTab('tab1')}>Tab1</button>
          <button className='px-2 bg-yellow-300 rounded-xl' onClick={ () =>setSelectedTab('tab2')}>Tab2</button>
       </div>
-      <div className='flex justify-between items-center gap-5'>
+      <div className='flex justify-between items-center gap-3'>
        {selectedTab === 'tab1' && (
 
       <div className='tab-1'>
