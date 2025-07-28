@@ -14,7 +14,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import ProfileList from "./Components/ProfileList";
 import Question1 from "./Components/Question1"
 import Tabs from "./Components/Tabs";
-
+import Todo from "./Components/Todo";
 const queryClient = new QueryClient();
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
             <Route path="/" element={<ProfileList />}></Route>
             <Route path = "/state" element = {<Question1 />}></Route>
             <Route path = "/tab" element = {<Tabs/>} />
+            <Route path = "/todo" element = {<Todo/>}/>
           </Routes>
         </Router>
       </QueryClientProvider>
