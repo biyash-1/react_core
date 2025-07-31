@@ -18,7 +18,7 @@ const OwnTodo = () => {
   return (
     <div className="h-screen mx-auto p-4">
       <div className="flex flex-col justify-center items-center p-3 mt-4">
-        <h1>Your Todos</h1>
+        <h1>enter tdos to create</h1>
         <div className="flex justify-between items-center">
           <input
             className="bg-slate-200"
