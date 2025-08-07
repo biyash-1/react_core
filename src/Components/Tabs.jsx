@@ -1,3 +1,6 @@
+
+// changing tabs with the help of useState
+
 import React from 'react'
 
 import { useState } from 'react';
@@ -25,7 +28,7 @@ const Tabs = () => {
       <div className='tab-1'>
       
         
-     <p> this is my tab1 content Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed vitae labore cupiditate explicabo qui animi dicta temporibus, quas quae incidunt atque blanditiis quia aspernatur ratione necessitatibus harum perspiciatis nulla rem!
+     <p className='px-4 bg-green-200'> this is my tab1 content Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed vitae labore cupiditate explicabo qui animi dicta temporibus, quas quae incidunt atque blanditiis quia aspernatur ratione necessitatibus harum perspiciatis nulla rem!
         </p> 
 
       </div>
@@ -35,7 +38,7 @@ const Tabs = () => {
       <div className="tab-2">
        
       
-        <p>
+        <p className='bg-yellow-300'>
             this is my tab2 content Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque commodi maiores maxime excepturi totam, eaque blanditiis sapiente enim dolor soluta.
         </p>
 
