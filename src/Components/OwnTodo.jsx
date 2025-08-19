@@ -1,6 +1,5 @@
 import  { useState } from "react"; 
 
-import {useState } from
 const OwnTodo = () => {
   const [value, setValue] = useState("");
   const [todos, setTodo] = useState([]);
