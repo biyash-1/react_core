@@ -6,7 +6,7 @@ function Component1() {
   return (
     <div  className='text-white'>
         {counter}
-        <h1>hi im a counter</h1>
+    
     </div>
   
   )
