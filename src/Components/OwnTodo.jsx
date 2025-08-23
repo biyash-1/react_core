@@ -16,7 +16,7 @@ const OwnTodo = () => {
    console.log("todo i get",[...todo,value])
  }
   return (
-    <div className=' h-screen  flex flex-col items-center  mx-auto mt-12'>
+    <div className=' h-screen  flex flex-col items-center  mx-auto mt-14'>
       <div className='flex gap-3 items-center justify-between'>
         <input type="text"value = {value} onChange= {(e) => setValue(e.target.value)} className='bg-gray-400' />
         <button className='bg-green-400 px-4' onClick = {addTask}>Add task</button>
