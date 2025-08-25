@@ -15,6 +15,11 @@ const OwnTodo = () => {
   setValue("")
    console.log("todo i get",[...todo,value])
  }
+
+ const deleteTask  = (index) =>{
+   const updatedTodos =  todo.filter((_,i) => i !== index);
+   setTodo(updatedTodos);
+ }
   return (
     <div className=' h-screen  flex flex-col items-center  mx-auto mt-14'>
       <div className='flex gap-3 items-center justify-between'>
@@ -32,7 +37,7 @@ const OwnTodo = () => {
                {todos}
                 <button 
         className='bg-red-400 rounded-xl px-2 '
-        onClick={() => deleteTask(task.id)}
+        onClick={() => deleteTask(index)}
       >
         Delete
       </button>
