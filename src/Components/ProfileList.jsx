@@ -19,6 +19,12 @@ const users = [
     age: 24,
     bio: "UI/UX designer with a passion for color theory.",
     avatarUrl: "https://i.pravatar.cc/150?img=3"
+  },
+    {
+    name: "Carol Martinez",
+    age: 24,
+    bio: "UI/UX designer with a passion for color theory.",
+    avatarUrl: "https://i.pravatar.cc/150?img=3"
   }
 ];
 const ProfileList = () => {
