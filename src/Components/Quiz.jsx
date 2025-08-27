@@ -65,7 +65,7 @@ function App() {
         className="text-black w-full p-2 focus:outline-none bg-green-400 hover:bg-gray-400 rounded"
         onClick={handleNext}
       >
-        {currentQuestion < questions.length - 1 ? "Next" : "Submit"}
+        {currentQuestion < questions.length - 1 ? "Next ques" : "Submit"}
       </button>
     </div>
   </div>
