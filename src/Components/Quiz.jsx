@@ -41,8 +41,8 @@ function App() {
         <Result score={score} totalQuestion={questions.length} /> // Pass props to Result
       ) : (
         <div className="text-white flex flex-col justify-center items-center min-h-screen bg-black">
-  <h1 className="text-white mb-5 text-3xl">Quiz app</h1>
-  <div className="question_card bg-[#0a192f] bg-opacity-400 flex flex-col justify-start max-h-[80vh] w-[90%] md:w-[500px] border-black shadow-md p-4 rounded-t-2xl rounded-b-2xl overflow-auto">
+  <h1 className="text-white mb-5 text-3xl">Quiz app begineer</h1>
+  <div className="question_card bg-[#0a192f] bg-opacity-300 flex flex-col justify-start max-h-[80vh] w-[90%] md:w-[500px] border-black shadow-md p-4 rounded-t-2xl rounded-b-2xl overflow-auto">
     <div className="questions mb-4">
       <h2 className="text-xl text-white mb-2">
         {questions[currentQuestion].question}
