@@ -22,6 +22,7 @@ const OwnTodo = () => {
  }
   return (
     <div className=' h-screen  flex flex-col items-center  mx-auto mt-14'>
+      <h2>MY todo app</h2>
       <div className='flex gap-3 items-center justify-between'>
         <input type="text"value = {value} onChange= {(e) => setValue(e.target.value)} className='bg-gray-400' />
         <button className='bg-green-400 px-4' onClick = {addTask}>Add task</button>

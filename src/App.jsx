@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/otp" element={<Otp />} />
-          <Route path = "/todo"  element = {<OwnTodo/>} />
+          <Route path = "/"  element = {<OwnTodo/>} />
           <Route path="/datafetching" element={<Datafetching />} /> 
           {/* <Route path = "/callback" element = {<Calllback/>} /> */}
           <Route path = "/quotegenerator" element = {<QuoteGenerator/> } />
