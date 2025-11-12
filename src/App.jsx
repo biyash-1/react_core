@@ -9,12 +9,14 @@ import Datafetching from "./Components/Datafetching";
 import State from "./Components/State"
 import Parent from "./Components/Parent";
 import Qn3 from "./Components/Qn3";
+import UncontrolledInput from "./Components/UncontrolledComponent";
 
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Router>
         <Routes>
+          <Route path="/uncontrolled" element = {<UncontrolledInput/>} />
           <Route path="/otp" element={<Otp />} />
             <Route path="/qn3" element = {<Qn3/>} />
           <Route path = "/parent" element= {<Parent/>} />

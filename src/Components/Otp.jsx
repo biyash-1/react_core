@@ -5,7 +5,7 @@ const Otp = ({ length = 4 }) => {
 
   useEffect(() => {
     if (inputsRef.current[0]) {
-      inputsRef.current[0].focus(); 
+      inputsRef.current[0].focus();
     }
   }, []);
 
