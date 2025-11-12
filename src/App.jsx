@@ -6,6 +6,9 @@ import Otp from "./Components/Otp";
 import QuoteGenerator from "./Components/QuoteGenerator";
 const queryClient = new QueryClient();
 import Datafetching from "./Components/Datafetching";
+import State from "./Components/State"
+import Parent from "./Components/Parent";
+import Qn3 from "./Components/Qn3";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/otp" element={<Otp />} />
+            <Route path="/qn3" element = {<Qn3/>} />
+          <Route path = "/parent" element= {<Parent/>} />
+          <Route path = "/state" element = {<State/>} />
           <Route path = "/"  element = {<OwnTodo/>} />
           <Route path="/datafetching" element={<Datafetching />} /> 
           {/* <Route path = "/callback" element = {<Calllback/>} /> */}
