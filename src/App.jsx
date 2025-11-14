@@ -10,13 +10,15 @@ import State from "./Components/State"
 import Parent from "./Components/Parent";
 import Qn3 from "./Components/Qn3";
 import UncontrolledInput from "./Components/UncontrolledComponent";
-
+import Tabs from "./Components/Tabs";
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Router>
         <Routes>
-          <Route path="/uncontrolled" element = {<UncontrolledInput/>} />
+          <Route path="/
+          " element = {<UncontrolledInput/>} />
+          <Route path="/tabs" element = {<Tabs/>}/>
           <Route path="/otp" element={<Otp />} />
             <Route path="/qn3" element = {<Qn3/>} />
           <Route path = "/parent" element= {<Parent/>} />
