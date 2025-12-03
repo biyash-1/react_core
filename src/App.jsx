@@ -11,13 +11,19 @@ import Parent from "./Components/Parent";
 import Qn3 from "./Components/Qn3";
 import UncontrolledInput from "./Components/UncontrolledComponent";
 import Tabs from "./Components/Tabs";
+import Memo from "./Components/Memo";
+import MemoExample from "./Components/UseMemo";
+import CallbackParent from "./Components/CallbackParent";
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Router>
         <Routes>
+          <Route path="/usecallback" element = {<CallbackParent/>}/> 
           <Route path="/
           " element = {<UncontrolledInput/>} />
+          <Route path="/usememo" element = {<MemoExample/>} />
+          <Route path = "/memo" element = {<Memo/>} />
           <Route path="/tabs" element = {<Tabs/>}/>
           <Route path="/otp" element={<Otp />} />
             <Route path="/qn3" element = {<Qn3/>} />
