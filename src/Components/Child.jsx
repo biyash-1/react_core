@@ -1,6 +1,6 @@
 // child
 
-import React from 'react'
+
 
 const Child = ({onIncrease,onDecrease}) => {
   return (

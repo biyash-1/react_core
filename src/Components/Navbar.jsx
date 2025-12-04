@@ -8,6 +8,15 @@ function Navbar() {
         <li>
           home
         </li>
+         <li>
+          About
+        </li>
+         <li>
+          contact
+        </li>
+         <li>
+          blog
+        </li>
       </ul>
     </div>
   )
